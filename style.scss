@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.slider {
+  width: 300px;
+  height: 150px;
+  margin: 50px 0px 0px 100px;
+  overflow: hidden;
+  &__gallery {
+    display: flex;
+    height: 100%;
+    width: 300px * 5;
+  }
+  &__item {
+    width: 300px;
+    height: 100%;
+    padding: 15px;
+    &-red {
+      background-color: red;
+    }
+    &-green {
+      background-color: green;
+    }
+    &-blue {
+      background-color: blue;
+    }
+    &-yellow {
+      background-color: yellow;
+    }
+    &-magenta {
+      background-color: magenta;
+    }
+    
+  }
+
+  
+}
+
+.btns {
+  margin: 20px 0px 0px 100px;
+}
